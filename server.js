@@ -69,7 +69,7 @@ app.post('/calculate-bmi', (req, res) => {
         category = 'Overweight'; // 25 <= BMI < 29.9
         colorClass = 'overweight'; // 
     } else { // bmi >= 30
-        category = 'Obese'; // BMI >= 30 [cite: 19]
+        category = 'Obese'; // BMI >= 30
         colorClass = 'obese'; 
     }
 
