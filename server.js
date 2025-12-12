@@ -52,7 +52,7 @@ app.post('/calculate-bmi', (req, res) => {
         `);
     }
 
-    // MARK: Не забыть про формулу!!! BMI = weight (kg) / height² (m) [cite: 14]
+    // MARK: Не забыть про формулу!!! BMI = weight (kg) / height² (m)
     const bmi = weight / (height * height);
 
     let category = '';
